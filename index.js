@@ -31,7 +31,7 @@ const start = async () => {
 
         if (text === '/start') {
             await bot.sendSticker(chatId, 'https://tlgrm.ru/_/stickers/9d6/0f5/9d60f555-5baa-34f5-8c92-be048418eecb/3.webp')
-            return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот парикмахерской Локоны `);
+            return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот викторины Угадай Число `);
         }
         if (text === '/info') {
             return bot.sendMessage(chatId, `Тебя зовут ${msg.from.first_name} ${msg.from.last_name}`);
